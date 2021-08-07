@@ -1,0 +1,956 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "dependencies": {
+    
+  },
+  "emoji":{
+    "card_r":"<:card_rainbow:667754673851334657>",
+    "card_g":"<:card_gold:667761372972449873>",
+    "card_s":"<:card_sliver:667761388516802630>",
+    "ps_moonmoon":"<:makoto:667048310573498398>",
+    "ps_koboro":"<:koboro:664750541099761674>"
+  },
+  "commend":{
+    "context":"//n = 抽不到 s = 銀 g = 金 r = 彩 r_l = 限角  r_l_p = 公主限 ",
+    "context_1":"// version TW JP ALL"
+  },
+
+
+
+  "princess":{
+    "commend":{
+       "context":"// "
+    },
+
+    "1":{
+      "title":"貪吃佩可",
+      "version": "all",
+      "rare":"n",
+      "name":"pakorinu",
+      "emoji":""
+    },
+    "2":{
+      "title":"可可蘿",
+      "version": "all",
+      "rare":"n",
+      "name":"kokoro",
+      "emoji":""
+    },
+    "3":{
+      "title":"凱留",
+      "version": "all",
+      "rare":"n",
+      "name":"kyoru",
+      "emoji":""
+    },
+    "4":{
+      "title":"優衣",
+      "version": "all",
+      "rare":"n",
+      "name":"ue",
+      "emoji":""
+    },
+    "5":{
+      "title":"日和",
+      "version": "all",
+      "rare":"s",
+      "name":"ue",
+      "emoji":""
+    },
+    "6":{
+      "title":"怜",
+      "version": "all",
+      "rare":"s",
+      "name":"ue",
+      "emoji":""
+    },
+    "7":{
+      "title":"禊",
+      "version": "all",
+      "rare":"s",
+      "name":"ue",
+      "emoji":""
+    },
+    "8":{
+      "title":"胡桃",
+      "version": "all",
+      "rare":"s",
+      "name":"ue",
+      "emoji":""
+    },
+    "9":{
+      "title":"依里",
+      "version": "all",
+      "rare":"s",
+      "name":"ue",
+      "emoji":""
+    },
+    "10":{
+      "title":"鈴莓",
+      "version": "all",
+      "rare":"s",
+      "name":"ue",
+      "emoji":""
+    },
+    "11":{
+      "title":"優花梨",
+      "version": "all",
+      "rare":"s",
+      "name":"ue",
+      "emoji":""
+    },
+    "12":{
+      "title":"碧",
+      "version": "all",
+      "rare":"s",
+      "name":"ue",
+      "emoji":""
+    },
+    "13":{
+      "title":"美咲",
+      "version": "all",
+      "rare":"s",
+      "name":"ue",
+      "emoji":""
+    },
+    "14":{
+      "title":"莉瑪",
+      "version": "all",
+      "rare":"s",
+      "name":"ue",
+      "emoji":""
+    },
+    "15":{
+      "title":"步未",
+      "version": "all",
+      "rare":"s",
+      "name":"ue",
+      "emoji":""
+    },
+    "16":{
+      "title":"可可蘿(夏日)",
+      "version": "all",
+      "rare":"n",
+      "name":"ue",
+      "emoji":""
+    },
+    "17":{
+      "title":"美冬(夏日)",
+      "version": "all",
+      "rare":"n",
+      "name":"ue",
+      "emoji":""
+    },
+    "18":{
+      "title":"宮子(萬聖節)",
+      "version": "all",
+      "rare":"n",
+      "name":"ue",
+      "emoji":""
+    },
+    "19":{
+      "title":"胡桃(聖誕節)",
+      "version": "all",
+      "rare":"n",
+      "name":"ue",
+      "emoji":""
+    },
+    "20":{
+      "title":"怜(新年)",
+      "version": "all",
+      "rare":"n",
+      "name":"ue",
+      "emoji":""
+    },
+    "21":{
+      "title":"惠里子(情人節)",
+      "version": "all",
+      "rare":"n",
+      "name":"ue",
+      "emoji":""
+    },
+    "22":{
+      "title":"露",
+      "version": "all",
+      "rare":"n",
+      "name":"ue",
+      "emoji":""
+    },
+    "23":{
+      "title":"拉姆",
+      "version": "all",
+      "rare":"n",
+      "name":"ue",
+      "emoji":""
+    },
+    "24":{
+      "title":"伊緒(夏日)",
+      "version": "all",
+      "rare":"n",
+      "name":"ue",
+      "emoji":""
+    },
+    "25":{
+      "title":"香織(夏日)",
+      "version": "all",
+      "rare":"n",
+      "name":"ue",
+      "emoji":""
+    },
+    "26":{
+      "title":"禊(萬聖節)",
+      "version": "all",
+      "rare":"n",
+      "name":"ue",
+      "emoji":""
+    },
+    "27":{
+      "title":"望(聖誕節)",
+      "version": "all",
+      "rare":"n",
+      "name":"ue",
+      "emoji":""
+    },
+    "28":{
+      "title":"茉莉",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "29":{
+      "title":"茜里",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "30":{
+      "title":"宮子",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "31":{
+      "title":"雪",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "32":{
+      "title":"七七香",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "33":{
+      "title":"美里",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "34":{
+      "title":"鈴奈",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "35":{
+      "title":"香織",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "36":{
+      "title":"美美",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "37":{
+      "title":"鈴音",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "38":{
+      "title":"鈴",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "39":{
+      "title":"惠里子",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "40":{
+      "title":"忍",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "41":{
+      "title":"真楊",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "42":{
+      "title":"栞",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "43":{
+      "title":"千歌",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "44":{
+      "title":"空花",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "45":{
+      "title":"朱希",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "46":{
+      "title":"美冬",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "47":{
+      "title":"深月",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "48":{
+      "title":"紡希",
+      "version": "all",
+      "rare":"g",
+      "name":"ue",
+      "emoji":""
+    },
+    "49":{
+      "title":"杏奈",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "50":{
+      "title":"真步",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "51":{
+      "title":"璃乃",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "52":{
+      "title":"初音",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "53":{
+      "title":"霞",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "54":{
+      "title":"伊緒",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "55":{
+      "title":"咲戀",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "56":{
+      "title":"望",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "57":{
+      "title":"尼諾",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "58":{
+      "title":"秋乃",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "59":{
+      "title":"鏡華",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "60":{
+      "title":"智",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "61":{
+      "title":"真琴",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "62":{
+      "title":"伊利亞",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "63":{
+      "title":"純",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "64":{
+      "title":"靜流",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "65":{
+      "title":"莫妮卡",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "66":{
+      "title":"流夏",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "67":{
+      "title":"姬塔",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "68":{
+      "title":"亞里沙",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "69":{
+      "title":"嘉夜",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "70":{
+      "title":"安",
+      "version": "all",
+      "rare":"r",
+      "name":"ue",
+      "emoji":""
+    },
+    "71": {
+      "title": "古雷雅",
+      "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+     "72": {
+      "title": "空花(江戶)",
+       "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+     "73": {
+      "title": "尼諾(江戶)",
+       "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+     "74": {
+      "title": "碧(學院)",
+       "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+     "75": {
+      "title": "克羅伊",
+       "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+     "76": {
+      "title": "美美(萬聖節)",
+       "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+     "77": {
+      "title": "露那",
+       "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+     "78": {
+      "title": "伊利亞(聖誕節)",
+       "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+     "79": {
+      "title": "霞(魔法)",
+       "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+    "80": {
+      "title": "鈴莓(夏日)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+    "81": {
+      "title": "貪吃佩可(夏日)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "82": {
+      "title": "朱希(夏日)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "83": {
+      "title": "凱留(夏日)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "84": {
+      "title": "忍(萬聖節)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "85": {
+      "title": "美咲(萬聖節)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "86": {
+      "title": "千歌(聖誕節)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "87": {
+      "title": "鈴音(聖誕節)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "88": {
+      "title": "優衣(新年)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "89": {
+      "title": "日和(新年)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "90": {
+      "title": "靜流(情人節)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "91": {
+      "title": "艾蜜莉亞",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "92": {
+      "title": "雷姆",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "93": {
+      "title": "鈴奈(夏日)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "94": {
+      "title": "咲戀(夏日)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "95": {
+      "title": "真琴(夏日)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "96": {
+      "title": "真步(夏日)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "97": {
+      "title": "鏡華(萬聖節)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "98": {
+      "title": "克莉絲(聖誕節)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "99": {
+      "title": "凱留(新年)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "100": {
+      "title": "克莉絲",
+       "version": "all",
+      "rare": "r_l_p",
+      "name": "ue",
+      "emoji": ""
+    },
+     "101": {
+      "title": "矛依未",
+       "version": "all",
+      "rare": "r_l_p",
+      "name": "ue",
+      "emoji": ""
+    },
+     "102": {
+      "title": "似似花",
+       "version": "all",
+      "rare": "r_l_p",
+      "name": "ue",
+      "emoji": ""
+    },
+     "103": {
+      "title": "鈴莓(新年)",
+       "version": "all",
+      "rare": "n",
+      "name": "ue",
+      "emoji": ""
+    },
+     "104": {
+      "title": "可可羅(新年)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "105": {
+      "title": "栞(魔法)",
+       "version": "all",
+      "rare": "n",
+      "name": "ue",
+      "emoji": ""
+    },
+     "106": {
+      "title": "貪吃佩可(公主)",
+       "version": "all",
+      "rare": "r_l_p",
+      "name": "ue",
+      "emoji": ""
+    },
+     "107": {
+      "title": "未央",
+       "version": "jp",
+      "rare": "n",
+      "name": "ue",
+      "emoji": ""
+    },
+     "108": {
+      "title": "卯月",
+       "version": "jp",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "109": {
+      "title": "凜",
+       "version": "jp",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+     "110": {
+      "title": "優尼",
+       "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+     "111": {
+      "title": "琪愛兒",
+       "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+     "112": {
+      "title": "鈴(騎士)",
+       "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+    "113": {
+      "title": "真楊(騎士)",
+       "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+    "114": {
+      "title": "可可羅(公主)",
+       "version": "all",
+      "rare": "r_l_p",
+      "name": "ue",
+      "emoji": ""
+    },
+    "115": {
+      "title": "步未(仙境)",
+       "version": "all",
+      "rare": "n",
+      "name": "ue",
+      "emoji": ""
+    },
+    "116": {
+      "title": "璃乃(仙境)",
+       "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+    "117": {
+      "title": "祈梨",
+       "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+    "118": {
+      "title": "優衣(公主)",
+       "version": "all",
+      "rare": "r_l_p",
+      "name": "ue",
+      "emoji": ""
+    },
+    "119": {
+      "title": "杏奈(夏日)",
+       "version": "all",
+      "rare": "n",
+      "name": "ue",
+      "emoji": ""
+    },
+    "120": {
+      "title": "流夏(夏日)",
+       "version": "all",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+    "121": {
+      "title": "七七香(夏日)",
+       "version": "all",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+    "122": {
+      "title": "美里(夏日)",
+       "version": "jp",
+      "rare": "n",
+      "name": "ue",
+      "emoji": ""
+    },
+    "123": {
+      "title": "初音(夏日)",
+       "version": "jp",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+    "124": {
+      "title": "純(夏日)",
+       "version": "jp",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+    "125": {
+      "title": "拉比林斯達",
+       "version": "jp",
+      "rare": "r_l_p",
+      "name": "ue",
+      "emoji": ""
+    },
+    "126": {
+      "title": "茜里(天使)",
+       "version": "jp",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+    "127": {
+      "title": "依里(天使)",
+       "version": "jp",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+    "128": {
+      "title": "茉莉(萬聖)",
+       "version": "jp",
+      "rare": "n",
+      "name": "ue",
+      "emoji": ""
+    },
+    "129": {
+      "title": "紡希(萬聖)",
+       "version": "jp",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+    "130": {
+      "title": "怜(萬聖)",
+       "version": "jp",
+      "rare": "r",
+      "name": "ue",
+      "emoji": ""
+    },
+    "131": {
+      "title": "莫妮卡(魔法)",
+       "version": "jp",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    },
+    "132": {
+      "title": "智(魔法)",
+       "version": "jp",
+      "rare": "r_l",
+      "name": "ue",
+      "emoji": ""
+    }
+
+
+
+
+  }
+
+}
